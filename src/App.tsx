@@ -15,6 +15,15 @@ interface Project {
 const projects: Project[] = [
   {
     id: '01',
+    title: 'BizFlow',
+    description: 'Modern business workflow automation and management platform for streamlined operations.',
+    url: 'https://bizflow-eight.vercel.app/',
+    tags: ['React', 'Workflow', 'Tailwind', 'Automation'],
+    image: 'https://picsum.photos/seed/business/800/600',
+    category: 'BUSINESS TOOL'
+  },
+  {
+    id: '02',
     title: 'Nexus Store',
     description: 'Custom Next.js engine with real-time inventory management.',
     url: 'https://example.com/shop',
@@ -24,7 +33,7 @@ const projects: Project[] = [
     category: 'E-COMMERCE'
   },
   {
-    id: '02',
+    id: '03',
     title: 'Vortex CRM',
     description: 'Enterprise-grade analytics dashboard for tech teams.',
     url: 'https://example.com/ai-gen',
@@ -33,19 +42,10 @@ const projects: Project[] = [
     category: 'SAAS PLATFORM'
   },
   {
-    id: '03',
-    title: 'Alpha Pay',
-    description: 'Crypto-native payment processing interface.',
-    url: 'https://example.com/crypto',
-    tags: ['TypeScript', 'D3.js', 'WebSockets', 'Vite'],
-    image: 'https://picsum.photos/seed/crypto/800/600',
-    category: 'FINTECH UI'
-  },
-  {
     id: '04',
     title: 'Hire Me',
     description: 'Got a project in mind? Let\'s collaborate and build something extraordinary.',
-    url: 'mailto:hello@aryan.dev',
+    url: 'mailto:hello@mohsin.dev',
     tags: ['HIRE', 'REMOTE', 'CONSULT'],
     image: '',
     category: 'CONTACT'
